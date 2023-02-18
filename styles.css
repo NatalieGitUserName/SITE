@@ -1,0 +1,166 @@
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: 'Courier New', Courier, monospace;             
+        }
+        
+        h1 {
+            color: white;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        .text-color {
+            color: white;
+            font-weight: 900;
+        }
+
+        .background-color{
+            background: #7c755a;
+        }
+        .nav-block1{           
+            width: 70%;
+            margin: auto;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+
+        .nav-list{
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 40px;
+            align-items: center;
+        }
+
+        .nav-list li{
+            display: inline;
+            padding: 5px;
+            margin: 5px;
+            cursor: pointer;
+        }
+
+        .nav-list li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .nav-olist{
+            list-style: none;
+            padding: 0;
+            margin: 10px 0 0;
+        }
+
+        .nav-olist li{
+            padding: 10px 10px;
+        }
+
+        .pointed-list{
+            column-count: 2;
+        }
+
+        .pointed-list li{
+            list-style: none;
+            padding: 10px 10px;
+            display: flex;
+        }
+
+        .pointed-list li::before {
+            background-image: url('./pictures/bookshelf.png');
+            background-size: 10px 20px;
+            display: inline-block;
+            width: 10px; 
+            height: 20px;
+            content:"";
+            margin-right: 10px;
+        }
+
+        .logo-image{
+            width: 100%;            
+        }
+
+        .name-tag{
+            font-size: 20px;
+            letter-spacing: 3px;
+        }
+
+        .paragraph {
+            margin: 20px 0;
+            line-height: 25px;
+        }
+
+        .quote-block {
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            color: white;
+            text-align: center;
+            padding: 50px 0;
+            background-image: url(./pictures/fishes.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .block-round-images {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .sample-round-image {
+            border-radius: 50%;
+            height: 30%;
+            width: 30%;
+            object-fit: cover;
+        }
+
+        #contact-form {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+        
+        #contact-form input, #contact-form textarea {
+            padding: 20px;
+            margin: 15px 0;
+            font-size: 15px;
+            width: 96.5%;
+            outline: none;
+            border: none;
+            border: 2px solid #7c755a;
+        }
+
+        input#submit {
+            width: 300px;   
+            cursor: pointer;
+            color: white;
+            font-size: 17px;
+            background-color: #7c755a;
+        }
+
+        .logo-container {
+            width: 560px;
+            height: 455px;
+            min-width: 100%;
+            min-height: 100%;      
+            /* background-size: cover; */
+            background-size: 100% 100%;
+            background-position: center;
+            background-image: url(./pictures/newpic.jpeg);
+            box-shadow: inset 0 -60px 40px 40px rgba(0, 0, 0, 0.699);
+        }
+
+        .logo-text-in-image
+        {
+            position: relative;
+            top: -70px;
+            margin: 0;
+            padding: 0 20px;
+        }
+
+        #botton-nav {
+            position: fixed;
+            bottom: 64px;
+            right: 13px;
+        }
+   
